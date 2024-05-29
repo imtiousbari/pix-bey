@@ -4,7 +4,7 @@ import busiwmn from "../Images/busiwmn.jpg";
 
 function review() {
   return (
-    <div className="w-[1440px] mx-auto px-5 my-20 h-screen">
+    <div className="w-[1440px] mx-auto px-5 my-20 ">
       <div className="flex justify-between">
         <p className="font-sans text-[65px] leading-[65px] font-medium w-[600px]">
             what our customer say about us
@@ -24,7 +24,7 @@ function review() {
       <div className="my-16">
       <TestimonialCard
         quote="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo modi tenetur."
-        author="Riad Islam"
+        author="Raida Islam"
         position="Product Manager"
         company="pixbay"
         rating={5}
